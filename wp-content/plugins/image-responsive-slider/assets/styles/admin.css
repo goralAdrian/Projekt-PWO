@@ -1,0 +1,724 @@
+.corefortress-hidden {
+    display: none;
+}
+
+.corefortress-full-width {
+    width: 100%;
+}
+
+.corefortress-slider-pagination {
+    text-align: right;
+
+}
+
+.corefortress-slider-pagination li {
+    display: inline-block;
+}
+
+.corefortress-slider-pagination li a {
+    display: inline-block;
+    vertical-align: baseline;
+    min-width: 30px;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 4px;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    color: #0071a1;
+    border-color: #0071a1;
+    background: #f3f5f6;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.corefortress-slider-pagination li span {
+    display: inline-block;
+    vertical-align: baseline;
+    min-width: 30px;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 4px;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    color: #a0a5aa!important;
+    border-color: #ddd!important;
+    background: #f7f7f7!important;
+    box-shadow: none!important;
+    text-shadow: 0 1px 0 #fff!important;
+    cursor: default;
+    transform: none!important;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+
+}
+
+.corefortress-slider-tabs {
+    padding:0;
+    margin:0;
+    font-size: 0;
+}
+
+.corefortress-slider-tabs li {
+    display: inline-block;
+    margin:0;
+    font-size: 14px;
+    border-left: 2px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    background: #ffffff;
+    vertical-align: middle;
+}
+
+.corefortress-slider-tabs li a,
+.corefortress-slider-tabs li span {
+    display: block;
+    padding: 0 15px;
+    line-height: 35px;
+    height: 35px;
+    text-decoration: none;
+    color: #444444;
+    box-shadow: none;
+}
+
+.corefortress-slider-tabs li a:hover {
+    background: #eeeeee;
+}
+
+.corefortress-slider-tabs .corefortress-cur-sl-tab {
+    background: #0674ec;
+}
+
+.corefortress-slider-tabs .corefortress-cur-sl-tab span {
+    color: #ffffff;
+}
+
+.corefortress-slider-publish-field {
+    padding: 10px 10px;
+}
+
+.corefortress-slider-publish-field input[type="number"],
+.corefortress-slider-publish-field input[type="text"],
+.corefortress-slider-publish-field select {
+    margin-left: 10px;
+    width: 140px;
+}
+
+.corefortress-slider-publish-field input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.corefortress-slider-pub-label {
+    display: inline-block;
+    width: 80px;
+    vertical-align: middle;
+}
+
+.corefortress-slider-add-slide-wrap {
+    background: #202934;
+    padding: 20px;
+    color: #FFFFFF;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.corefortress-slider-add-slide-wrap .corefortress-slider-add-slide-section {
+    width: 50%;
+}
+
+.corefortress-slider-add-slide-wrap .corefortress-slider-shortcode-section {
+    width: 50%;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.corefortress-slider-add-slide-wrap .corefortress-slider-shortcode-section h2 {
+}
+
+.corefortress-shortcode {
+    appearance: none !important;
+    background: rgba(255,255,255,.1) !important;
+    color: #FFFFFF !important;
+    width: 230px !important;
+    max-width: none !important;
+    min-width: auto !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    padding: 0 20px !important;
+    border:none !important;
+    margin:0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+td .corefortress-shortcode,
+td .corefortress-shortcode-copy {
+    color: #444 !important;
+    background: #eee !important;
+}
+
+.corefortress-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.corefortress-tooltip .corefortress-tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    line-height: 1;
+}
+
+.corefortress-tooltip .corefortress-tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: calc(50% + 5px);
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.corefortress-tooltip:hover .corefortress-tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.corefortress-shortcode-copy {
+    appearance: none;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.corefortress-shortcode-copy img {
+    vertical-align: middle;
+    width: 20px;
+}
+
+.corefortress-shortcode-copy:hover {
+    background: rgba(255,255,255,.05)
+}
+
+.corefortress-slider-add-slide-wrap h2 {
+    color: #FFFFFF !important;
+    padding: 0 !important;
+    font-size: 16px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-right: 15px !important;
+}
+
+
+.corefortress-slider-add-slide-wrap ul {
+    margin:0;
+    padding:0;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.corefortress-slider-add-slide-wrap li {
+    display: inline-block;
+    margin:0 15px 0 0;
+    padding:0;
+}
+
+.corefortress-slider-add-slide-wrap li:nth-child(1) a {
+    background: #0674ec;
+}
+
+.corefortress-slider-add-slide-wrap li:nth-child(2) a {
+    background: #f44336;
+}
+.corefortress-slider-add-slide-wrap li:nth-child(3) a {
+    background: #4caf50;
+}
+
+.corefortress-slider-add-slide-wrap li a {
+    display: flex;
+    height: 45px;
+    padding: 0 25px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.corefortress-slider-add-slide-wrap li a img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.corefortress-slider-add-slide-wrap li a span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.corefortress-slidefieldcontainer {
+    display: inline-block;
+}
+
+.corefortress-field-slider {
+    -webkit-appearance: none;
+    width: 130px;
+    height: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.corefortress-field-slider:hover {
+    opacity: 1;
+}
+
+.corefortress-field-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #4CAF50;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.corefortress-field-slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+
+.corefortress-slide-img {
+    width: 180px;
+    height: 210px;
+}
+
+.corefortress-slide-img-wrap {
+    width: 180px;
+    height: 180px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.corefortress-slide-img-open-editor {
+    display: none;
+}
+
+.corefortress-slide-wrap:not(.corefortress-slide-editing):hover .corefortress-slide-img-open-editor {
+    display: block;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background-image: url('../img/edit.svg');
+    background-size: 30px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 5px;
+}
+
+.corefortress-slide-img img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.corefortress-slide-img img.corefortress-slide-img-content-placeholder {
+    width: 100px;
+}
+
+.corefortress-slides-wrap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+.corefortress-slide-wrap {
+    position: relative;
+    width: 180px;
+    background: white;
+    padding:0;
+    margin-right: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    cursor: move;
+    border-radius: 5px;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+/*
+.corefortress-slide-wrap:not(.corefortress-slide-editing) {
+    cursor: pointer;
+}*/
+
+.corefortress-slide-wrap.corefortress-slide-editing {
+    width: 100%;
+    margin-right: 0;
+}
+
+.corefortress-slide-img-info {
+    padding-top: 30px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width:0;
+    overflow: hidden;
+    height:0;
+    transition: width .3s linear;
+}
+
+.corefortress-slide-wrap.corefortress-slide-editing .corefortress-slide-img-info {
+    width: calc(100% - 200px);
+    height: auto;
+}
+
+.corefortress-slide-meta {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.corefortress-slide-close-editor {
+    display: none;
+}
+
+.corefortress-slide-wrap.corefortress-slide-editing .corefortress-slide-close-editor {
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    background-color: #0674ec;
+    border: 2px solid #0674ec;
+    color: white;
+    position: absolute;
+    top:0;
+    right: 0;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.corefortress-slide-wrap.corefortress-slide-editing .corefortress-slide-close-editor:hover {
+    background-color: white;
+    color: #0674ec;
+}
+
+.corefortress-slide-wrap.corefortress-slide-editing .corefortress-slide-meta {
+    border-radius: 0;
+}
+
+.corefortress-image-slide-meta {
+    background: #0674ec;
+}
+
+.corefortress-video-slide-meta {
+    background: #f44336;
+}
+
+.corefortress-video-slide-meta span {
+    display: inline-block;
+    padding: 3px 5px;
+    line-height: 1;
+    font-weight: bold;
+    background:white;
+    color:#f44336;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.corefortress-post-slide-meta {
+    background: #4caf50;
+}
+
+.corefortress-slide-img-info-field {
+    padding:10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.corefortress-slide-img-info-field textarea,
+.corefortress-slide-field-full-width {
+    width: calc(100% - 140px);
+}
+
+.corefortress-slide-field-label {
+    display: inline-block;
+    width: 130px;
+    vertical-align: middle;
+}
+
+.corefortress-slide-field-label ~ * {
+    vertical-align: middle;
+}
+
+.corefortress-slide-img-multi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.corefortress-slide-img-url-option input[type="checkbox"] {
+    margin: 0 !important;
+}
+
+.corefortress_new_video_url,
+.corefortress_add_more_video_slide,
+.corefortress_add_post_slide_search {
+    margin: 10px 0 0 0 !important;
+}
+
+.corefortress_add_video_slide_actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.corefortress_add_post_slide_list {
+    margin: 10px 0 0 0;
+    padding:0;
+}
+
+.corefortress_add_post_slide_list li {
+    margin:0;
+    display: block;
+    padding: 10px 10px;
+    border-top: 1px solid rgba(0,0,0,.2);
+    cursor: pointer;
+}
+
+.corefortress_add_post_slide_list li:before {
+    content:'';
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.corefortress_add_post_slide_list li.corefortress-active:before {
+    background-image: url(../img/check.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat    ;
+}
+
+
+.corefortress_add_post_slide_list li:last-child {
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.corefortress_add_post_slide_list li:hover {
+    background: rgba(0,0,0,.1);
+}
+
+.corefortress-notice {
+    margin:0 !important;
+    font-style: italic;
+}
+
+.corefortress-slide-img-actions-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.corefortress_add_post_slide_submit  {
+    margin:10px 0 !important;
+}
+
+.corefortress-theme-radio label {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    background-image: linear-gradient(45deg,#e3e9ed 25%,transparent 0),linear-gradient(-45deg,#e3e9ed 25%,transparent 0),linear-gradient(45deg,transparent 75%,#e3e9ed 0),linear-gradient(-45deg,transparent 75%,#e3e9ed 0);
+    background-size: 20px 20px;
+    background-position: 0 0,0 10px,10px -10px,-10px 0;
+    border: 2px solid transparent;
+
+}
+
+.corefortress-theme-radio input[type='radio'] {
+    display: none;
+}
+
+.corefortress-theme-radio input[type='radio']:checked ~ label {
+    border-color: #00d084;
+}
+
+.corefortress-theme-radio label img {
+    width: 40px;
+    height: 40px;
+}
+
+.corefortress-theme-radio label img:nth-child(2) {
+    margin-left: 10px;
+}
+
+.corefortress-theme-editor-wrap {
+    width:1300px;
+}
+
+.corefortress-theme-editor-section {
+    width: 400px;
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+
+.corefortress-theme-editor-field {
+    padding: 10px 0;
+}
+
+.corefortress-theme-field-label {
+    width: 180px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.corefortress-theme-radio-items-wrap {
+        display: block;
+}
+
+.corefortress-theme-radio-item {
+    display: inline-block;
+    margin: 6px;
+}
+
+.corefortress-theme-submit {
+    margin-top: 15px !important;
+}
+
+.corefortress-color-field-wrap {
+    position: absolute;
+    z-index: 1;
+}
+
+.corefortress_admin_table td {
+    vertical-align: middle;
+}
+
+#corefortress-theme-form * {
+    pointer-events: none;
+}
+
+.corefortress-pro-notice {
+    position: relative;
+    margin: 20px 0;
+    background: #202934;
+    padding: 20px;
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.corefortress-pro-notice img {
+    width: 90px;
+    margin-right: 20px;
+}
+
+.corefortress-pro-notice p {
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.corefortress-pro-notice a {
+    margin-top: 20px;
+    display: inline-block;
+    background: #0674ec!important;
+    padding: 15px 50px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    color: #fff !important;
+    font-weight: 400;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    text-decoration: none !important;
+    outline: none;
+}
+
+.corefortress-pro-dismiss {
+    display: inline-block;
+    position: absolute;
+    top:20px;
+    right: 20px;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.corefortress-pro-icon {
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    width: 30px;
+    text-align: center;
+    margin-left: 10px;
+    background: #a4afb7;
+    color: #FFFFFF;
+    font-size: 11px !important;
+    border-radius: 3px;
+}
