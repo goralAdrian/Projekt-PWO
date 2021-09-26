@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<rss version="2.0"
+		xmlns:content="http://purl.org/rss/1.0/modules/content/"
+		xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+		xmlns:dc="http://purl.org/dc/elements/1.1/"
+		xmlns:atom="http://www.w3.org/2005/Atom"
+
+			>
+
+	<channel>
+
+		<title> &#187; All Posts</title>
+		<atom:link href="/index.php/forums/feed/" rel="self" type="application/rss+xml" />
+		<link>/index.php/forums/feed/</link>
+		<description></description>
+		<lastBuildDate>Sun, 26 Sep 2021 21:04:05 +0000</lastBuildDate>
+		<generator>https://bbpress.org/?v=2.6.6</generator>
+		<language>pl-PL</language>
+
+		
+		
+					
+				<item>
+					<guid>/index.php/forums/topic/gothic/#post-22</guid>
+					<title><![CDATA[Gothic &#8211; seria]]></title>
+					<link>/index.php/forums/topic/gothic/#post-22</link>
+					<pubDate>Sun, 26 Sep 2021 12:53:13 +0000</pubDate>
+					<dc:creator>Polaris</dc:creator>
+
+					<description>
+						<![CDATA[
+						<p>Luźne rozmowy na temat serii <strong>Gothic</strong>.</p>
+						]]>
+					</description>
+
+					
+					
+				</item>
+
+					
+		
+	</channel>
+	</rss>
+

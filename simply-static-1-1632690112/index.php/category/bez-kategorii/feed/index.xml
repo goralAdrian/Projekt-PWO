@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Bez kategorii</title>
+	<atom:link href="/index.php/category/bez-kategorii/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description></description>
+	<lastBuildDate>Sun, 26 Sep 2021 16:57:48 +0000</lastBuildDate>
+	<language>pl-PL</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+	<item>
+		<title>Elementor #50</title>
+		<link>/index.php/2021/09/26/elementor-50/</link>
+					<comments>/index.php/2021/09/26/elementor-50/#respond</comments>
+		
+		<dc:creator><![CDATA[Polaris]]></dc:creator>
+		<pubDate>Sun, 26 Sep 2021 16:54:18 +0000</pubDate>
+				<category><![CDATA[Bez kategorii]]></category>
+		<guid isPermaLink="false">/?p=50</guid>
+
+					<description><![CDATA[Gothic Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Rekomendowane wymagania sprzętowe: Pentium II 350MHz 64MB RAM akcelerator 3D Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="50" class="elementor elementor-50" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-c53cd5b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c53cd5b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-76b0b25" data-id="76b0b25" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0fec643 elementor-widget elementor-widget-heading" data-id="0fec643" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Gothic</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8afbaec elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8afbaec" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5adcaf9" data-id="5adcaf9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f26b240 elementor-widget elementor-widget-text-editor" data-id="f26b240" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a56b2f8" data-id="a56b2f8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0e2ddc1 elementor-widget elementor-widget-text-editor" data-id="0e2ddc1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Rekomendowane wymagania sprzętowe:</p><div id="game-requirements-cnt-1-c"><ul><li>Pentium II 350MHz</li><li>64MB RAM</li><li>akcelerator 3D</li></ul></div>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-16dd56a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="16dd56a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-10c7aa1" data-id="10c7aa1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-88f264b elementor-widget elementor-widget-text-editor" data-id="88f264b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5cef279 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5cef279" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-43bdeb7" data-id="43bdeb7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fd2fc96 elementor-widget elementor-widget-image" data-id="fd2fc96" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img src="/wp-content/plugins/elementor/assets/images/placeholder.png" title="" alt="" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-98ed144" data-id="98ed144" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b6b275b elementor-widget elementor-widget-image" data-id="b6b275b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img src="/wp-content/plugins/elementor/assets/images/placeholder.png" title="" alt="" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-0c5f4d2" data-id="0c5f4d2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2c891a3 elementor-widget elementor-widget-image" data-id="2c891a3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img src="/wp-content/plugins/elementor/assets/images/placeholder.png" title="" alt="" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-9892e96" data-id="9892e96" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-58f8d41 elementor-widget elementor-widget-image" data-id="58f8d41" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img src="/wp-content/plugins/elementor/assets/images/placeholder.png" title="" alt="" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/index.php/2021/09/26/elementor-50/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
